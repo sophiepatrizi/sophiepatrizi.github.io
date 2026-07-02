@@ -1,0 +1,71 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+    line-height: 140%;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #aaa9b5;
+    color: #f2f2f2;
+    font-size: 3.5em;
+    padding: 0.9em 0.5em 0.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #aaa9b5;
+    color: #f2f2f2;
+    font-size: 2em;
+    padding: 0 0.9em 1.4em;
+    font-family: serif;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 2.5em 0.8em 1em;
+    padding-top: 0.5em;
+    font-size: 2em;
+    color: #a8322b;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-top: 0.12em solid #a8322b;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+p.description {
+    font-style: italic;
+}
+
+p.price {
+    color: #a8322b;
+}
+
+ul {
+    margin: 0 1.6em 2em;
+}
+
+li {
+    margin: 1.4em 0;
+    list-style-type: none;
+}
