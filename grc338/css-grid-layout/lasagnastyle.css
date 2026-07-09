@@ -14,7 +14,7 @@ img {
 }
 
 body {
-    background-color: #d9d9d9;
+    background-color: #000000;
     color: #222222;
     font-family: poppins, sans-serif;
     font-weight: 400;
@@ -53,6 +53,7 @@ h2 {
 figure {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    gap: 2em;
     margin-bottom: 2em;
 }
 
