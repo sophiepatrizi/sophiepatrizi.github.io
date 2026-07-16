@@ -97,12 +97,12 @@ p.price {
 nav ul li {
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 nav ul li a {
     color: #ffff00;
     background-color: #0000ff;
-    padding: 0.25em 0.5em 0.3em;
+    padding: 0.4em 0.75em;
 }
 p.slogan {
     font-size: 3em;
@@ -114,6 +114,7 @@ p.slogan {
 }
 address {
     color: #ff8800;
+    font-weight: 400;
 }
 footer {
     position: absolute;
