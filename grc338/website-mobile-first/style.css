@@ -43,3 +43,88 @@ header {
     background: #cccccc;
     padding: 1em;
 }
+h1 {
+    width: 8em;
+}
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+h2 {
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+h3 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0.75em;
+}
+a {
+    text-decoration: none;
+}
+nav ul {
+    text-align: right;
+}
+ul li {
+    list-style-type: none;
+}
+figure {
+    margin-bottom: 1em;
+}
+main.menu ul {
+    margin: 0 0 2em;
+}
+main.menu ul li {
+    margin: 0 0 1.75em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+p {
+    margin: 0 0 1em;
+}
+p.description {
+    grid-column: 1 / 3;
+    margin: 0;
+}
+p.price {
+    grid-row: 1;
+    grid-column: 2;
+    color: #ff0000;
+    text-align: right;
+    margin: 0;
+}
+nav ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+nav ul li a {
+    color: #ffff00;
+    background-color: #0000ff;
+    padding: 0.25em 0.5em 0.3em;
+}
+p.slogan {
+    font-size: 3em;
+    line-height: 1.15;
+    font-family: serif;
+    font-style: italic;
+    margin: 1.5em 0 2em;
+    color: #ffffff;
+}
+address {
+    color: #ff8800;
+    font-weight: bold;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+    padding: 1em;
+    background: #ffff00;
+}
+footer p {
+    margin: 0;
+}
