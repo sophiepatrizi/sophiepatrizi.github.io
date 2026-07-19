@@ -1,0 +1,190 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+body {
+  background-color: #ff0000;
+  font-family: sans-serif;
+}
+
+div.container,
+div.home-container {
+  position: relative;
+  min-height: 100vh;
+  max-width: 80em;
+  margin: auto;
+}
+
+div.container {
+  background-color: #ffffff;
+}
+
+div.home-container {
+  background-image: url("images/home-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #cccccc;
+  padding: 1em;
+}
+
+h1 {
+  width: 8em;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+h3 {
+  margin: 2em 0 1em;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  align-self: center;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  margin-bottom: 1em;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.4em 0.75em;
+  background-color: #0000ff;
+  color: #ffff00;
+}
+
+nav ul li.selected a {
+  background-color: #ff8800;
+  color: #ffffff;
+}
+
+main {
+  padding: 2em 1em 5em;
+}
+
+main.home {
+  min-height: calc(100vh - 11em);
+}
+
+figure {
+  margin-bottom: 1em;
+}
+
+article {
+  max-width: 35em;
+  margin: 1em auto;
+  padding: 0.25em;
+  background-color: lightblue;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+p.slogan {
+  max-width: 18em;
+  margin: 2em 0 1em;
+  color: #ffffff;
+  font-family: serif;
+  font-size: clamp(2em, 5vw, 4em);
+  font-style: italic;
+  line-height: 1.1;
+}
+
+address {
+  color: #ff8800;
+  font-style: normal;
+  font-weight: normal;
+}
+
+main.home address {
+  margin-top: 6em;
+}
+
+main.menu ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 2em;
+  list-style-type: none;
+}
+
+main.menu ul li {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 1.5em;
+}
+
+p.description {
+  grid-column: 1 / 3;
+  margin: 0;
+}
+
+p.price {
+  grid-row: 1;
+  grid-column: 2;
+  margin: 0;
+  color: #ff0000;
+  text-align: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  box-sizing: border-box;
+  padding: 1em;
+  background-color: #ffff00;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media screen and (min-width: 60em) {
+  header {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-left: 1em;
+  }
+
+  main.menu ul {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5em;
+    row-gap: 2em;
+  }
+}
